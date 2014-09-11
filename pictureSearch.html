@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    
+    
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">&nbsp;</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 well">
+
+            <form class="form-inline">
+                <label>Search Photos</label>
+
+                <div class="form-group">
+                            <input type="text" class="form-control" id="pSearch">
+                    <button type="submit" class="btn btn-info">Search</button>
+                            <p class="help-block"><small>ex. containergardening, jellybeans, coffee</small></p>
+                </div>
+            </form>
+
+            <div id="counter">Image
+                <span id="current">1</span>
+                /
+                <span id="total"> </span>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-7 col-md-offset-1 well">
+            <div id="view">
+                <div id="slideShow">
+                    <div id="imageList">
+
+                    </div>
+                </div>
+            <!--end view-->
+            </div>
+        </div>
+    <!--end row-->
+    </div>
+    
+    
+<!--end container-->
+</div>
+</body>
+</html>
