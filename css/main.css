@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(56, 226, 192);
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa {
+    color: #38e2c0;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: solid 4px #38e2c0;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 20px;
+    text-decoration: none;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+.fa:hover {
+    background-color: #38e2c0;
+    color: #fff;
+}
