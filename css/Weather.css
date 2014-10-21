@@ -1,0 +1,158 @@
+/*start background images*/
+body {
+    background: url(../img/default.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .3 ease;
+
+}
+
+.clear {
+    background: url(../img/clear.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+.fewClouds {
+    background: url(../img/fewClouds.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+
+}
+
+.sClouds {
+    background: url(../img/sClouds.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+
+}
+
+.clouds {
+    background: url(../img/clouds.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+.mist {
+    background: url(../img/mist.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+
+}
+
+.rain {
+    background: url(../img/rain.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+.storm {
+    background: url(../img/storm.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+/*end background images*/
+
+
+.panel {
+    background: rgba(255, 255, 255, 0.90);
+    margin-top: 3em;
+    box-shadow: 4px 4px 5px rgba(0,0,0,.05);
+}
+
+.panel-default > .panel-heading {
+    background: transparent;
+    border: 0;
+
+}
+
+.panel-title {
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+#location {
+    display: block;
+    height: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#icon img {
+    transition: all .5s ease;
+}
+
+#icon img.hasSrc {
+    opacity: 1;
+}
+
+span#cityTemp {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+span#icon {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.controls {
+    border-top: 1px dotted #999;
+    margin-top: 1em;
+    padding-top: 1em;
+    text-align: center;
+}

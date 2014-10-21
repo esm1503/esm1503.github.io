@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Weather</title>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="js/weather.js"></script>
+    <link rel="stylesheet" href="css/weather.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="cityName">City Weather</h3>
+                    <h5 id="location"></h5>
+
+                </div>
+
+                <div class="panel-body">
+                    <div class="stats">
+                        <span id="cityTemp">-- &deg</span>
+                    <span id="icon">
+                        <img src="http://openweathermap.org/img/w/01d.png" alt="weather icon"/>
+                    </span>
+                        <br /> <span id="description">
+                    It's beautiful somewhere.
+
+                    </span>
+                    </div>
+                    <div class="controls">
+                        <select name="city" id="city">
+                            <option value="">Choose City</option>
+                            <option value="4671654">Austin, TX</option>
+                            <option value="4930956">Boston, MA</option>
+                            <option value="4460243">Charlotte, NC</option>
+                            <option value="4887398">Chicago, IL</option>
+                            <option value="5419384">Denver, CO</option>
+                            <option value="5368361">Los Angeles, CA</option>
+                            <option value="5128581">New York, NY</option>
+                            <option value="5809844">Seattle, WA</option>
+                        </select>
+                        <div class="formats">
+                            <label for="tempFormat"><input type="radio" name="tempFormat" id="tempFormat" value="F" checked> F&deg;</label>
+                            <label for="tempFormat"><input type="radio" name="tempFormat" id="tempFormat" value="C"> C&deg;</label>
+                        </div>
+                    </div>
+                    <!--end panel body-->
+                </div>
+
+            </div>
+
+            <!--end 3 col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</div>
+
+</body>
+</html>
