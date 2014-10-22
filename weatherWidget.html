@@ -23,6 +23,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4"></div>
+
         <div class="col-md-4">
 
             <div class="panel panel-default">
@@ -31,9 +32,10 @@
                     <h3 class="panel-title" id="cityName">City Weather</h3>
                     <h5 id="location"></h5>
 
-                </div>
+                </div> <!--end panel heading-->
 
                 <div class="panel-body">
+
                     <div class="stats">
                         <span id="cityTemp">-- &deg</span>
                     <span id="icon">
@@ -41,10 +43,11 @@
                     </span>
                         <br /> <span id="description">
                     It's beautiful somewhere.
-
                     </span>
-                    </div>
+                    </div> <!--end stats-->
+
                     <div class="controls">
+                        <!--Cities hardcoded in-->
                         <select name="city" id="city">
                             <option value="">Choose City</option>
                             <option value="4671654">Austin, TX</option>
@@ -56,22 +59,24 @@
                             <option value="5128581">New York, NY</option>
                             <option value="5809844">Seattle, WA</option>
                         </select>
+
                         <div class="formats">
                             <label for="tempFormat"><input type="radio" name="tempFormat" id="tempFormat" value="F" checked> F&deg;</label>
                             <label for="tempFormat"><input type="radio" name="tempFormat" id="tempFormat" value="C"> C&deg;</label>
                         </div>
-                    </div>
-                    <!--end panel body-->
-                </div>
 
-            </div>
+                    </div> <!--end controls-->
 
-            <!--end 3 col-->
-        </div>
-        <!--end row-->
-    </div>
-    <!--end container-->
-</div>
+                </div> <!--end panel body-->
+
+            </div> <!--end panel-->
+
+
+        </div> <!--end col-->
+
+    </div> <!--end row-->
+
+</div> <!--end container-->
 
 </body>
 </html>

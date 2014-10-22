@@ -2,11 +2,9 @@ body {
     background-color: rgb(56, 226, 192);
 }
 
-.centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.row {
+    position: relative;
+    top: 10em;
 }
 
 .fa {
