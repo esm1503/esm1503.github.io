@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="map.css" />
+
+</head>
+
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 well">
+            
+            <div id="mapView" class='mapInfo app'>
+                <span id="loc" class="displayView"> </span>
+                <span id="zoom" class="displayView"> </span>    
+            </div><!-- end mapView-->
+            
+            <div id="map"></div>
+        
+        </div><!-- end col-->
+    </div><!-- end row-->
+</div><!--end container-->
+
+
+
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="map.js"></script>
+
+<script>
+// initialize the map in map div with defined center and zoom
+    var map = L.map('map').setView([0,0], 2);
+    L.tileLayer('http://{s}.tiles.mapbox.com/v3/esm1503.k2bkogdn/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18
+    }).addTo(map);
+
+    var popup = L.popup();
+
+    map.on('click', onMapClick);
+
+</script>
+
+</body>
+</html>

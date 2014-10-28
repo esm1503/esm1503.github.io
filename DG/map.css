@@ -1,0 +1,30 @@
+body {
+    background: url(texture.png) repeat;
+}
+
+#map {
+    height: 600px;
+}
+
+.mapInfo {
+	height: 20px;
+	width: 110px;
+	bottom: 22px;
+	left: 24px;
+	vertical-align: top;
+	position: absolute;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.50);
+	font-size: 11px;
+	color: #fff
+}
+
+.app {
+	z-index: 1001;
+}
+
+.displayView {
+	padding: 0 5px;
+	text-align: center;
+}
+	
