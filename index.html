@@ -24,7 +24,7 @@
 
           <div id="portfolio-navigation">
             <ul class="nav-list">
-                <li><a href="#" data-filter="*">Portfolio</a></li>
+                <li class="portfolio"><a href="#" data-filter="*">Portfolio</a></li>
                 <li><a href="#" data-filter="Design">Design</a></li>
                 <li><a href="#" data-filter="Front">Front-End</a></li>
                 <li><a href="#" data-filter="Photo">Photography</a></li>
@@ -32,14 +32,16 @@
             </ul>   
         </div>
     </div> 
+    <div class="clear"></div>
 
 <!-- start gallery -->
-    <div id="wrapper" data-current="">
+
+ <div id="wrapper">
+    <div id="content" data-current=""> 
         <ul class="gallery">
-            <div class="Front">
             <li>
                 <a href="http://blog.tomnod.com/map-visualization-tests/" target="_blank">
-                    <div class="content">
+                    <div class="content Front">
                         <div class="content-media">
                             <img src="img/blog.png">
                                 <div class="text">
@@ -50,10 +52,9 @@
                     </div>
                 </a>
             </li>
-            </div>
-            <li class="Front">
+            <li>
                 <a href="http://tomnod.github.io/map-visualization-tests/" target="_blank">
-                    <div class="content">
+                    <div class="content Front">
                         <div class="content-media">
                             <img src="img/mapTest.jpg">
                                 <div class="text">
@@ -64,7 +65,7 @@
                     </div>
                 </a>
             </li>    
-            <li class="Front">
+            <li>
                 <a href="pictureSearch.html" target="_blank">
                     <div class="content">
                         <div class="content-media">
@@ -77,7 +78,7 @@
                     </div>
                 </a>
             </li>
-            <li class="Front">
+            <li>
                 <a href="weatherWidget.html" target="_blank">
                     <div class="content">
                         <div class="content-media">
@@ -90,7 +91,7 @@
                     </div>
                 </a>
             </li>
-            <li class="Front Design">
+            <li>
                 <a href="filter.html" target="_blank">
                     <div class="content">
                         <div class="content-media">
@@ -103,7 +104,6 @@
                     </div>
                 </a>
             </li>
-            <div class="Design">
             <li>
                 <a href="http://www.creativelittlefish.com" target="_blank">
                     <div class="content">
@@ -117,8 +117,7 @@
                     </div>
                 </a>
             </li>
-            </div>
-            <li class="Design">
+            <li>
                 <a href="#">
                     <div class="content">
                         <div class="content-media">
@@ -131,6 +130,7 @@
                 </a>
             </li>
         </ul>
+   </div>
     </div>
 
 <!-- Js -->

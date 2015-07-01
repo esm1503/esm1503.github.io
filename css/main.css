@@ -49,6 +49,9 @@ hr.line {
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
+.clear {
+    clear: both;
+}
 
 /*---------------Portfolio Nav---------------*/
 
@@ -70,6 +73,9 @@ hr.line {
     padding-right: 20px;
 }
 
+.nav-list ul li:first-child {
+    font-weight: 600;
+}
 
 .nav-list a {
 
@@ -85,13 +91,17 @@ hr.line {
     color: #368D86;
     text-decoration: none;
 }
+
+.nav-list li.portfolio > a {
+  font-weight: 400;
+}
+
  /*---------------Gallery---------------*/
-#content{
+#wrapper{
     max-width: 940px;
      margin: 0 auto;
      padding: 0 5%;
-     background-color: rgba(255, 255, 255);
-     border-radius: 10%;
+     margin-top: 20px;
 }
 img{
     max-width: 100%;
@@ -141,6 +151,8 @@ a{
     display:block;
 }
 
-
+.text .fa{
+    font-size: 25px;
+}
 
  /*---------------*---------------*/
