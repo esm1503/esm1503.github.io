@@ -1,7 +1,7 @@
+$(document).ready(function(){
 
-$(window).load(function(){
     //sort boxes
-    var $container = $('#content');
+    var $container = $('#wrapper');
     var toFilter = '*';
 
     $container.isotope({
