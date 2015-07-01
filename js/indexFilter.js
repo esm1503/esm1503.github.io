@@ -44,7 +44,7 @@ $(window).load(function(){
 
     function checkActive(){
 
-        $('#nav a').each(function(){
+        $('#portfolio-navigation a').each(function(){
 
             $(this).css({ //set default color
                 color: '#595959'
