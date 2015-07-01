@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
 
     //sort boxes
     var $container = $('#wrapper');
