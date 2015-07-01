@@ -18,7 +18,7 @@ $(window).load(function(){
     checkActive(); //highlight the all link
 
     //nav link sorting ability
-    $('#nav a').click(function(){
+    $('#portfolio-navigation a').click(function(){
         var title = $(this).attr('data-filter');
         var text = $(this).text();
 
