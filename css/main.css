@@ -1,13 +1,12 @@
-/**********************header*********************/
+/*---------------Header---------------*/
 body {
-    background-color: rgb(56, 226, 192);
+    background-color: #ccc;
 }
 #header{
   float: left;
   margin: 0 auto;
   padding: 5px 0 5px 5px;
   width: 100%;
-  background-color: rgb(56, 226, 192);  
 }
 
 #logo {
@@ -41,10 +40,53 @@ body {
 
 #contact .fa:hover {
     background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(56, 226, 192, 0.8);
+    color: #368D86;
 }
- /*******************gallery************************/
-#wrapper{
+
+hr.line {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+/*---------------Portfolio Nav---------------*/
+
+#nav {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.nav-list li {
+    float: left;
+    padding-right: 20px;
+}
+
+
+.nav-list a {
+
+    color: #595959;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: uppercase;
+
+}
+
+.nav-list a:hover {
+    color: #368D86;
+    text-decoration: none;
+}
+ /*---------------Gallery---------------*/
+#content{
     max-width: 940px;
      margin: 0 auto;
      padding: 0 5%;
@@ -99,10 +141,6 @@ a{
     display:block;
 }
 
-@media screen and (min-width: 480px) {
-    .gallery li {
-        width: 28.33333%;
-    }
-}
 
- /*******************************************/
+
+ /*---------------*---------------*/
