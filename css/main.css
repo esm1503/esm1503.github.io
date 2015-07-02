@@ -70,7 +70,7 @@ hr.line {
 
 .nav-list li {
     float: left;
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 .nav-list ul li:first-child {
@@ -84,12 +84,13 @@ hr.line {
     font-weight: 300;
     line-height: 1em;
     text-transform: uppercase;
+    text-decoration: none;
 
 }
 
 .nav-list a:hover {
     color: #368D86;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .nav-list li.portfolio > a {
@@ -97,6 +98,10 @@ hr.line {
 }
 
  /*---------------Gallery---------------*/
+
+#gallery{
+    margin-left: 35px;
+}
 
 #wrapper{
     max-width: 940px;
@@ -112,6 +117,8 @@ img{
 a{
     text-decoration: none; 
 }
+ 
+
 
 .box{
     padding: 15px;
@@ -161,4 +168,21 @@ a{
     font-size: 40px;
 }
 
+.modal-header{
+    border-bottom: 0;
+}
+
+.modal-body img {
+    display: block;
+    margin: 0 auto;
+}
+
  /*---------------*---------------*/
+ @media screen and (min-width: 480px) {
+
+     #gallery{
+        margin-left: 140px;
+     }
+
+}
+ 
