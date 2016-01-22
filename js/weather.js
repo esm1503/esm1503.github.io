@@ -31,7 +31,7 @@ $(function (){
 
         //run ajax call
         $.ajax({
-            url: 'http://api.openweathermap.org/data/2.5/weather',
+            url: 'http://api.openweathermap.org/data/2.5/weather?appid=b212cbfd0ea5741132e77711a3368f7f',
             type: 'GET',
             dataType: 'json',
             data: {id: id}
