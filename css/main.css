@@ -1,19 +1,79 @@
-/*---------------Header---------------*/
+/*---------------General---------------*/
 body {
     background-color: #ccc;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #FFF;
 }
-#header{
-  float: left;
+
+h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+h1 { 
+    font-size: 6em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 300; 
+    margin-top: 5px;
+}
+
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+.feature{
+    margin-top: 30px;
+}
+
+#feature-image {
+    background: url('../img/bgImagePrimary.jpg');
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second-image {
+    background: url('../img/bgImageSecondary.jpg');
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p.link > a{
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+/*---------------Header---------------*/
+
+header{
   margin: 0 auto;
-  padding: 5px 0 5px 5px;
+  padding: 5px 0 10px 10px;
   width: 100%;
 }
 
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #contact {
     padding-left: 5px;
@@ -22,14 +82,14 @@ body {
 
 #contact .fa {
     color: rgba(255, 255, 255, 0.8);
+    border: solid 2px rgba(255, 255, 255, 0.0);
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    border: solid 3px rgba(255, 255, 255, 0.8);
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 7px;
-    margin-right: 18px;
+    padding-top: 6px;
+    margin-right: 15px;
     text-decoration: none;
     -webkit-transition: all .1s linear;
     -moz-transition: all .1s linear;
@@ -39,26 +99,17 @@ body {
 
 
 #contact .fa:hover {
+    border: solid 2px rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.8);
-    color: #368D86;
-}
-
-hr.line {
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-}
-
-.clear {
-    clear: both;
+    color: #666;
 }
 
 /*---------------Portfolio Nav---------------*/
 
-/*#portfolio-navigation {
-    max-width: 940px;
-    margin: 0 auto;
-}*/
+#portfolio-navigation {
+    margin-top: 40px;
+}
 
 .nav-list {
     list-style: none;
@@ -71,17 +122,16 @@ hr.line {
 .nav-list li {
     float: left;
     padding-right: 25px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .nav-list ul li:first-child {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .nav-list a {
-
-    color: #595959;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1em;
     text-transform: uppercase;
     text-decoration: none;
@@ -89,7 +139,7 @@ hr.line {
 }
 
 .nav-list a:hover {
-    color: #368D86;
+    color: #FFF;
     text-decoration: underline;
 }
 
@@ -117,19 +167,14 @@ img{
 a{
     text-decoration: none; 
 }
- 
-
 
 .box{
-    padding: 15px;
+    padding: 5px;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
-   /* margin: 2.5%;*/
     width: 250px;
-  /*  width: 45%;*/
     background: #ffffff;
-    border: 2px solid #595959;
     margin-bottom: 20px;
 }
 

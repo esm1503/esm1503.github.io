@@ -47,7 +47,7 @@ $(window).load(function(){
         $('#portfolio-navigation a').each(function(){
 
             $(this).css({ //set default color
-                color: '#595959'
+                color: '#FFF'
             });
 
             var title = $(this).attr('data-filter');
@@ -61,7 +61,7 @@ $(window).load(function(){
 
             if(title==currentCat){
                 $(this).css({
-                    color: '#368D86'
+                    color: '#666'
                 });
             }
 
