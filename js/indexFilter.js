@@ -22,7 +22,7 @@ $(window).load(function(){
         var title = $(this).attr('data-filter');
         var text = $(this).text();
 
-        if(text == "Portfolio"){
+        if(text == "All"){
             var selector = title;
         } else {
             var selector = "." + title;
